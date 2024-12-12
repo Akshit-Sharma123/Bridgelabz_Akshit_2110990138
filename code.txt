@@ -1,0 +1,109 @@
+#include<iostream>
+using namespace std;
+int main(){
+    // int x;
+    // cin>>x;
+    // if(x%2==0){
+    //     cout<<x<<" is Even number"<<endl;
+    // }
+    // else{
+    //     cout<<"Odd number"<<endl;
+    // }
+    // cout<<"Absolute value of x is "<<abs(x);
+
+    //
+    // int cp;
+    // int sp;
+    // cin>>cp;
+    // cin>>sp;
+    // if(sp==cp){
+    //     cout<<"NO profit and loss";
+    // }
+    // else if(sp>cp){
+    //     cout<<"Rs"<<sp-cp<<" profit is made"<<endl;
+    // }
+    // else{
+    //     cout<<cp-sp<<" rs loss is made"<<endl;
+    // }
+
+    //
+    // int l;
+    // int b;
+    // cin>>l>>b;
+    // int p=2*(l+b);
+    // int a=l*b;
+    // if(a>p){
+    //     cout<<"area is bigger than perimeter"<<endl;
+    // }
+    // else{
+    //     cout<<"perimeter is bigger than area"<<endl;
+    // }
+
+    //take a no and tell if it is a 3digit no or not
+    // int n;
+    // cin>>n;
+    // if(n>99 && n<1000){
+    //     cout<<"It is 3digit no"<<endl;
+    // }
+    // else{
+    //     cout<<"It is not  a 3digit no"<<endl;
+    // }
+
+    //check if 3nos can be the side of triangle
+    // int a,b,c;
+    // cin>>a>>b>>c;
+    // if(((a+b)>c) && ((a+c)>b) && ((b+c)>a)){
+    //       cout<<"YES";
+    // }
+    // else{
+    //     cout<<"NO";
+    // }
+    //
+
+
+    // //to get max no in three nos
+    //  int a,b,c;
+
+    //  cin>>a>>b>>c;
+
+    // // if(a>b && a>c){
+    // //     cout<<"a is max no"<<endl;
+    // // }
+    // // else if(b>c && b>a){
+    // //     cout<<"b is max no"<<endl;
+    // // }
+    // // else{
+    // //     cout<<"c is max no"<<endl;
+    // // }
+    // cout<<max(c,max(a,b))<<endl;
+
+    //divisible by 5 or 3 but not divisible by 15
+    // int n;
+    // cin>>n;
+    // if(n%15!=0 && (n%3==0 || n%5==0)){
+    //     cout<<"yes";
+    // }
+    // else{
+    //     cout<<"no";
+    // }
+
+    //to check coordinates in which axis
+    int x,y;
+    cin>>x>>y;
+    if(x==0 && y==0){
+        cout<<"origin";
+    }
+    else if(x>0 && y>0){
+        cout<<"1st quadrant";
+    }
+    else if(x<0 && y>0){
+        cout<<"2nd quadrant";
+    }
+    else if(x<0 && y<0){
+        cout<<"3rd quadrant";
+    }
+    else{
+        cout<<"4th quadrant";
+    }
+
+}
