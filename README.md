@@ -39,3 +39,9 @@ to create a orphan branch so that it doesnot copy commits of main branch git che
 Date 12/12/24 Topics Covered
 
 learned basic syntax of c++ basic programs
+
+
+Date 13/12/24 Topics Covered
+
+done some problems on loops,patterns
+
