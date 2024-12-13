@@ -11,3 +11,35 @@ Topics Covered basics of git
 9.how to make a new branch and move into it git checkout -b newbranchname
 
 10.to rename a branch git branch -m newbranchname
+
+
+
+
+
+
+
+Date 10/12/24 
+1.cloning how to clone a remote repo into local folder git clone repolink
+
+2.to switch into another branch git checkout branchname
+
+3.pull to merge all the changes in the remote repo to local git pull 
+4.fetch does work same as pull it will not merge git fetch git merge
+
+5.Stashing if you want to not commit,push some files and put them aside for some time git stash for tracked files
+
+git stash -u for untracked files git stash pop it will pop the latest
+
+
+
+
+Date 11/12/24 Topics covered
+
+to create a orphan branch so that it doesnot copy commits of main branch git checkout --orphan branchname 
+2.to merge it into main branch git checkout main git merge --allow-unrelated-histories branchname
+3.rebase command
+
+
+Date 12/12/24 Topics Covered
+
+learned basic syntax of c++ basic programs
