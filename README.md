@@ -46,7 +46,15 @@ Date 13/12/24 Topics Covered
 done some problems on loops,patterns
 
 
-Date 16/12/24 Topics Covered
+Date 16/12/24
+ Topics Covered
+
 pass by value
 pass by reference
 pointers
+
+Date 17/12/24
+
+Topics Covered
+
+diff b/w pointers and refernce
