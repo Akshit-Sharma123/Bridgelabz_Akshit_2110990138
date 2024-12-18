@@ -53,8 +53,8 @@ pass by value
 pass by reference
 pointers
 
-Date 17/12/24
+Date 18/12/24
 
 Topics Covered
 
-diff b/w pointers and refernce
+random function
